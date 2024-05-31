@@ -1,7 +1,7 @@
 // Tipografia d projeto
 
 // Importar fonte desejado: Não esquecer de alterar o font family abaixo!
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
 
 // Responsividade das fontes para cada tipo de tela, de forma automática.
 
@@ -9,130 +9,109 @@
 
 @mixin typeface-1($size, $device: desktop) {
   @if $size == h0 and $device == desktop {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 120px;
     line-height: 120%;
     font-weight: 500;
   } @else if $size == h0 and $device == mobile {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 88px;
     line-height: 120%;
     font-weight: 500;
   } @else if $size == h0 and $device == smallmobile {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 32px;
     line-height: 120%;
     font-weight: 500;
   }
 
   @if $size == h1 and $device == desktop {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 80px;
     line-height: 100%;
     font-weight: 500;
   } @else if $size == h1 and $device == mobile {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 56px;
     line-height: 110%;
     font-weight: 500;
   } @else if $size == h1 and $device == smallmobile {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 48px;
     line-height: 120%;
     font-weight: 500;
   } @else if $size == h2 and $device == desktop {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 64px;
     line-height: 110%;
     font-weight: 300;
   } @else if $size == h2 and $device == mobile {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 40px;
     line-height: 120%;
     font-weight: 300;
   } @else if $size == h2 and $device == smallmobile {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 36px;
     line-height: 120%;
     font-weight: 300;
   } @else if $size == h3 and $device == desktop {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 48px;
     line-height: 120%;
     font-weight: 300;
   } @else if $size == h3 and $device == mobile {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 32px;
     line-height: 120%;
     font-weight: 300;
   } @else if $size == h3 and $device == smallmobile {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 28px;
     line-height: 130%;
     font-weight: 300;
   } @else if $size == h4 and $device == desktop {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 36px;
     line-height: 120%;
     font-weight: 300;
   } @else if $size == h4 and $device == mobile {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 28px;
     line-height: 130%;
     font-weight: 300;
   } @else if $size == h4 and $device == smallmobile {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 20px;
     line-height: 140%;
     font-weight: 300;
   } @else if $size == h5 and $device == desktop {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 24px;
     line-height: 140%;
     font-weight: 300;
   } @else if $size == h5 and $device == mobile {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 20px;
     line-height: 140%;
     font-weight: 300;
   } @else if $size == h6 and $device == desktop {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 18px;
     line-height: 150%;
     font-weight: 100;
   } @else if $size == h6 and $device == mobile {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 100;
   } @else if $size == h7 and $device == desktop {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 14px;
     line-height: 150%;
     font-weight: 100;
   } @else if $size == h7 and $device == mobile {
-    font-family: "Montserrat", sans-serif;
-
+    font-family: "Archivo", sans-serif;
     font-size: 14px;
     line-height: 150%;
     font-weight: 100;
@@ -140,8 +119,7 @@
 }
 
 @mixin typeface-2($size: p2, $device: desktop) {
-  font-family: "Rubik", sans-serif;
-
+  font-family: "Archivo", sans-serif;
   @if $size == p1 and $device == desktop {
     font-size: 18px;
     line-height: 30px;
@@ -337,7 +315,11 @@ p {
 
 .bold {
   font-weight: bold;
-  color: $dark-10;
+  color: $dark-20;
+}
+
+.semi-bold {
+  font-weight: 500;
 }
 
 span {

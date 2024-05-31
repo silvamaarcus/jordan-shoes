@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -6,11 +6,11 @@
 }
 
 .color-black {
-  color: #06090f;
+  color: #06090f !important;
 }
 
 .color-white {
-  color: #f7f9fc;
+  color: #f7f9fc !important;
 }
 
 .color-primary {
@@ -527,6 +527,13 @@
   border: 2px solid #1b69d2;
   border-radius: 4px;
   background-color: rgba(27, 105, 210, 0.2);
+}
+
+.bg-jordan {
+  background-image: url("../img/image-michael-jordan.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .s-0 {
@@ -1171,14 +1178,14 @@
 }
 
 .h0 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 120px;
   line-height: 120%;
   font-weight: 500;
 }
 @media screen and (max-width: 960px) {
   .h0 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 88px;
     line-height: 120%;
     font-weight: 500;
@@ -1186,7 +1193,7 @@
 }
 @media screen and (max-width: 340px) {
   .h0 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 32px;
     line-height: 120%;
     font-weight: 500;
@@ -1196,14 +1203,14 @@
 h1 {
   color: #121214;
   z-index: 5;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 80px;
   line-height: 100%;
   font-weight: 500;
 }
 @media screen and (max-width: 960px) {
   h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 56px;
     line-height: 110%;
     font-weight: 500;
@@ -1211,7 +1218,7 @@ h1 {
 }
 @media screen and (max-width: 340px) {
   h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 48px;
     line-height: 120%;
     font-weight: 500;
@@ -1220,14 +1227,14 @@ h1 {
 
 h2 {
   color: #121214;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 64px;
   line-height: 110%;
   font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 40px;
     line-height: 120%;
     font-weight: 300;
@@ -1235,7 +1242,7 @@ h2 {
 }
 @media screen and (max-width: 340px) {
   h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 36px;
     line-height: 120%;
     font-weight: 300;
@@ -1244,14 +1251,14 @@ h2 {
 
 h3 {
   color: #121214;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 48px;
   line-height: 120%;
   font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   h3 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 32px;
     line-height: 120%;
     font-weight: 300;
@@ -1259,7 +1266,7 @@ h3 {
 }
 @media screen and (max-width: 340px) {
   h3 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 28px;
     line-height: 130%;
     font-weight: 300;
@@ -1268,14 +1275,14 @@ h3 {
 
 h4 {
   color: #121214;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 36px;
   line-height: 120%;
   font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   h4 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 28px;
     line-height: 130%;
     font-weight: 300;
@@ -1283,7 +1290,7 @@ h4 {
 }
 @media screen and (max-width: 340px) {
   h4 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 20px;
     line-height: 140%;
     font-weight: 300;
@@ -1292,14 +1299,14 @@ h4 {
 
 h5 {
   color: #121214;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 24px;
   line-height: 140%;
   font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   h5 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 20px;
     line-height: 140%;
     font-weight: 300;
@@ -1308,14 +1315,14 @@ h5 {
 
 h6 {
   color: #121214;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 18px;
   line-height: 150%;
   font-weight: 100;
 }
 @media screen and (max-width: 960px) {
   h6 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 100;
@@ -1323,14 +1330,14 @@ h6 {
 }
 
 .h7 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 14px;
   line-height: 150%;
   font-weight: 100;
 }
 @media screen and (max-width: 960px) {
   .h7 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 14px;
     line-height: 150%;
     font-weight: 100;
@@ -1340,14 +1347,14 @@ h6 {
 p {
   letter-spacing: 0px;
   color: #717274;
-  font-family: "Rubik", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 200;
 }
 @media screen and (max-width: 960px) {
   p {
-    font-family: "Rubik", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 200;
@@ -1355,7 +1362,7 @@ p {
 }
 @media screen and (max-width: 340px) {
   p {
-    font-family: "Rubik", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 14px;
     line-height: 26px;
     font-weight: 200;
@@ -1368,14 +1375,14 @@ p {
 }
 
 .p1 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 18px;
   line-height: 30px;
   font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   .p1 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 18px;
     line-height: 30px;
     font-weight: 300;
@@ -1383,7 +1390,7 @@ p {
 }
 @media screen and (max-width: 340px) {
   .p1 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 14px;
     line-height: 24px;
     font-weight: 300;
@@ -1391,14 +1398,14 @@ p {
 }
 
 .p2 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 18px;
   line-height: 30px;
   font-weight: 200;
 }
 @media screen and (max-width: 960px) {
   .p2 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 200;
@@ -1406,14 +1413,14 @@ p {
 }
 
 .p3 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 200;
 }
 @media screen and (max-width: 960px) {
   .p3 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 200;
@@ -1421,14 +1428,14 @@ p {
 }
 
 .p4 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 200;
 }
 @media screen and (max-width: 960px) {
   .p4 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 14px;
     line-height: 20px;
     font-weight: 200;
@@ -1436,14 +1443,14 @@ p {
 }
 
 .p5 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 13px;
   line-height: 20px;
   font-weight: 200;
 }
 @media screen and (max-width: 960px) {
   .p5 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 13px;
     line-height: 20px;
     font-weight: 200;
@@ -1461,7 +1468,11 @@ p {
 
 .bold {
   font-weight: bold;
-  color: #121214;
+  color: #151b26;
+}
+
+.semi-bold {
+  font-weight: 500;
 }
 
 span {
@@ -1474,14 +1485,14 @@ span {
   color: #121214;
   letter-spacing: 1px;
   text-transform: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 80px;
   line-height: 100%;
   font-weight: 500;
 }
 @media screen and (max-width: 960px) {
   .letter-h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 56px;
     line-height: 110%;
     font-weight: 500;
@@ -1490,14 +1501,14 @@ span {
 
 strong {
   color: #06090f;
-  font-family: "Rubik", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 18px;
   line-height: 30px;
   font-weight: 200;
 }
 @media screen and (max-width: 960px) {
   strong {
-    font-family: "Rubik", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 200;
@@ -1522,7 +1533,7 @@ b {
 
 .h-xl {
   color: #121214;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 120px;
   line-height: 120%;
   font-weight: 500;
@@ -1530,7 +1541,7 @@ b {
 }
 @media screen and (max-width: 960px) {
   .h-xl {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 88px;
     line-height: 120%;
     font-weight: 500;
@@ -1540,7 +1551,7 @@ b {
 
 .h-l {
   color: #121214;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 120px;
   line-height: 120%;
   font-weight: 500;
@@ -1548,7 +1559,7 @@ b {
 }
 @media screen and (max-width: 960px) {
   .h-l {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 88px;
     line-height: 120%;
     font-weight: 500;
@@ -1589,6 +1600,7 @@ body::-webkit-scrollbar-thumb {
 svg,
 img {
   width: 100%;
+  height: auto;
 }
 
 .icon {
@@ -1640,7 +1652,7 @@ img {
 a {
   cursor: pointer;
   text-decoration: none;
-  font-family: "Rubik", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 200;
@@ -1665,7 +1677,7 @@ textarea {
   border-radius: 4px;
   width: 100%;
   color: #f7f9fc;
-  font-family: "Rubik", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 200;
@@ -1683,7 +1695,7 @@ option {
   background: linear-gradient(224.78deg, #5390e3 8.12%, #1357b3 92.21%) !important;
   border-radius: 4px;
   border: 0;
-  font-family: "Rubik", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 200;

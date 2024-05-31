@@ -35,11 +35,11 @@ $yellow-dark: #d9b043;
 $yellow-light: #ffd76b;
 
 .color-black {
-  color: $dark-0;
+  color: $dark-0 !important;
 }
 
 .color-white {
-  color: $white-30;
+  color: $white-30 !important;
 }
 
 .color-primary {
