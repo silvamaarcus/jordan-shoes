@@ -194,6 +194,10 @@ $gutter: 32px;
   flex-wrap: wrap;
 }
 
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
 .float-left {
   float: left;
 }
@@ -261,6 +265,10 @@ $gutter: 32px;
 // Largura de 25% do tamanho p/ o elemento em relação ao pai.
 .w-25 {
   width: 25%;
+}
+
+.w-38 {
+  width: 38%;
 }
 
 // Bordas
@@ -376,4 +384,13 @@ $gutter: 32px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.card-shoe {
+  background-color: #f3f7ff;
+
+  img {
+    max-width: 225px;
+    max-height: 135px;
+  }
 }

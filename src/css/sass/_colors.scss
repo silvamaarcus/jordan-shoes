@@ -2,6 +2,7 @@
 
 // Cores Principais
 $brand-color: #1b69d2;
+$brand-color-light: #7ca2f4;
 
 // Cores Neutras
 $dark-0: #06090f;
@@ -44,6 +45,10 @@ $yellow-light: #ffd76b;
 
 .color-primary {
   color: $brand-color;
+}
+
+.color-secondary {
+  color: $brand-color-light;
 }
 
 .color-gradient {

@@ -1,0 +1,46 @@
+{
+  "shoes": [
+    {
+      "id": "1",
+      "img": "/src/img/jordan-1.png",
+      "title": "Air Jordan 1 Mid Dutch Green",
+      "subtitle": "Tênis Air Jordan",
+      "price": 1199.99
+    },
+    {
+      "id": "2",
+      "img": "/src/img/jordan-2.png",
+      "title": "Air Jordan 1 High CMFT Tropical Twist",
+      "subtitle": "Tênis Air Jordan",
+      "price": 1049
+    },
+    {
+      "id": "3",
+      "img": "/src/img/jordan-3.png",
+      "title": "Air Jordan 1 High Purple/White",
+      "subtitle": "Tênis Air Jordan",
+      "price": 1350
+    },
+    {
+      "id": "4",
+      "img": "/src/img/jordan-4.png",
+      "title": "Air Jordan 1 Mid GS 'Light Smoke Grey'",
+      "subtitle": "Tênis Air Jordan",
+      "price": 1585
+    },
+    {
+      "id": "5",
+      "img": "/src/img/jordan-5.png",
+      "title": "Air Jordan 1 Mid SE Bright Citrus",
+      "subtitle": "Tênis Air Jordan",
+      "price": 949.99
+    },
+    {
+      "id": "6",
+      "img": "/src/img/jordan-6.png",
+      "title": "Air Jordan 1 Mid Grey Camo",
+      "subtitle": "Tênis Air Jordan",
+      "price": 999.99
+    }
+  ]
+}

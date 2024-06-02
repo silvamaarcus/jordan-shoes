@@ -17,6 +17,10 @@
   color: #1b69d2;
 }
 
+.color-secondary {
+  color: #7ca2f4;
+}
+
 .color-gradient {
   background: linear-gradient(224.78deg, #5390e3 8.12%, #1357b3 92.21%) !important;
   background-clip: text;
@@ -373,6 +377,10 @@
   flex-wrap: wrap;
 }
 
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
 .float-left {
   float: left;
 }
@@ -431,6 +439,10 @@
 
 .w-25 {
   width: 25%;
+}
+
+.w-38 {
+  width: 38%;
 }
 
 .bb-black {
@@ -534,6 +546,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.card-shoe {
+  background-color: #f3f7ff;
+}
+.card-shoe img {
+  max-width: 225px;
+  max-height: 135px;
 }
 
 .s-0 {
@@ -1331,7 +1351,7 @@ h6 {
 
 .h7 {
   font-family: "Archivo", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 150%;
   font-weight: 100;
 }
@@ -1346,7 +1366,7 @@ h6 {
 
 p {
   letter-spacing: 0px;
-  color: #717274;
+  color: #121214;
   font-family: "Archivo", sans-serif;
   font-size: 16px;
   line-height: 26px;
@@ -1582,7 +1602,7 @@ body::-webkit-scrollbar {
 }
 body::-webkit-scrollbar-thumb {
   border-radius: 8px;
-  background: #151b26;
+  background: #121214;
 }
 
 .border {
