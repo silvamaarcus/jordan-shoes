@@ -14,3 +14,7 @@ Este é um projeto de uma página de e-commerce dedicada à venda de tênis da m
 
 - **Catálogo de Produtos**: Exibição de uma lista de tênis Air Jordan com imagens, descrições e preços.
 - **Detalhes do Produto**: Página de detalhes que mostra informações completas sobre cada produto.
+- **Consulta de Produtos**: Os produtos foram cadastrados em um arquivo JSON e a aplicação faz uma consulta neste banco de dados fake para exibir informações dos tênis ao usuário.
+
+## Licença
+Este projeto está licenciado sob a eFront. E desenvolvido pelo autor do repositório.
